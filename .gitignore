@@ -14,6 +14,7 @@ build/*
 # Test Output Folder
 out/*
 spec/out/*
+tests/*
 
 # Tmp folder
 tmp/*
@@ -63,6 +64,9 @@ _SpecRunner.html
 
 # Mac files
 .DS_Store
+
+# NPM registry config
+.npmrc
 
 # Ignore xlsx files generated during testing
 *.xlsx

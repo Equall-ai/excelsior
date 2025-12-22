@@ -1,6 +1,9 @@
 {
-  "name": "exceljs",
+  "name": "@equall-ai/exceljs",
   "version": "4.4.0",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "description": "Excel Workbook Manager - Read and Write xlsx and csv Files.",
   "private": false,
   "license": "MIT",
