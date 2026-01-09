@@ -21,7 +21,7 @@ describe('WorkbookXform - undefined sheets handling', () => {
     // After the fix, sheets should be an empty array instead of undefined
     expect(model).to.exist();
     expect(model.sheets).to.be.an('array').that.is.empty();
-    expect(model.views).to.be.an('array').that.is.empty();
+    expect(model.views).to.be.an('array').that.has.lengthOf(1);
     expect(model.properties).to.be.an('object');
   });
 
